@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;400;600;700;800&display=swap');
+
+#intro {
+    background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    border-radius: 0% 0% 0% 100px;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+}
+
+.signUp-btn:hover {
+    background-color: hsl(355, 100%, 74%);
+}
+
+.heads {
+    color: hsl(208, 49%, 24%)
+}
+
+.illustration {
+    /* right: -100px; */
+    top: -30px;
+}
+
+#body {
+    
+}
+
+.body-shi {
+    background-image: linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    border-radius: 0% 100px 0% 100px;
+}
+
+.phone {
+
+}
+
+.ws {
+   
+}
+
+#footer {
+    background-color: hsl(240, 10%, 16%);
+    border-radius: 0 100px 0 0;
+}
+
+.lomgo {
+    top: -100px
+}
